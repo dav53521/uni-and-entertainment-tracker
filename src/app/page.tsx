@@ -1,10 +1,7 @@
-import SiteHeader from "./header/header"
-import RootLayout from "./layout";
-
 export default function Home() {
   return(
       <main>
-        <h1>Testing home page</h1>
+        <h1 className="text-3xl font-semibold flex flex-row justify-center">Welcome to My Uni and Entertainment Tracker</h1>
       </main>
   );
 }

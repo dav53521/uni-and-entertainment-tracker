@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import SiteHeader from "./header/header";
-
-const inter = Inter({ subsets: ["latin"] });
+import SiteFooter from "./footer/footer"
 
 export const metadata: Metadata = {
   title: "Uni And Entertainment Tracker/Helper",
@@ -16,9 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <>
-    <SiteHeader />
-     <main>{children}</main>
-     </>
+    <div className="flex flex-col h-dvh">
+        <>
+            <SiteHeader />
+                 <main>{children}</main>
+            <SiteFooter />
+         </>
+    </div>
   );
 }
