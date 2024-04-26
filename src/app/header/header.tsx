@@ -1,4 +1,3 @@
-import React from "react"
 import Link from 'next/link'
 
 export default function SiteHeader() {
@@ -8,22 +7,22 @@ export default function SiteHeader() {
                 <Link href="/">Home</Link>
             </div>
             <div className="align-middle text-2xl relative ">
-                <Link href="Assignments.tsx" data-testid="">Assignments</Link>
+                <Link href="../Assignments" data-testid="">Assignments</Link>
             </div>
             <div className="align-middle text-2xl relative ">
-                <Link href="Subjects.tsx">Subjects</Link>
+                <Link href="../Subjects">Subjects</Link>
             </div>
             <div className="align-middle text-2xl relative ">
-                <Link href="Results.tsx">Results</Link>
+                <Link href="Results">Results</Link>
             </div>
             <div className="align-middle text-2xl relative ">
-                <Link href="University.tsx">University</Link>
+                <Link href="../University">University</Link>
             </div>
             <div className="align-middle text-2xl relative ">
-                <Link href="Shows.tsx">Shows</Link>
+                <Link href="../Shows">Shows</Link>
             </div>
             <div className="align-middle text-2xl relative ">
-                <Link href="Music.tsx">Music</Link>
+                <Link href="../Music">Music</Link>
             </div>
         </div>
     );
