@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import SiteHeader from "./header/header";
 import SiteFooter from "./footer/footer"
+import "@fontsource/inter"
 
 export const metadata: Metadata = {
   title: "Uni And Entertainment Tracker/Helper",
@@ -15,15 +16,17 @@ export default function RootLayout({
 }>) {
   return (
       <html>
-        <body>
-            <div className="flex flex-col h-dvh">
-                <>
-                    <SiteHeader />
-                         <main>{children}</main>
-                    <SiteFooter />
-                 </>
-            </div>
-        </body>
+          <body>
+            <main>
+                <div className="flex flex-col h-dvh">
+                    <>
+                        <SiteHeader />
+                             <main>{children}</main>
+                        <SiteFooter />
+                     </>
+                </div>
+            </main>
+          </body>
       </html>
   );
 }
