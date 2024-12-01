@@ -1,5 +1,5 @@
 # About this project
-This is a little project I started to learn how to do front-end along with trying to learn React and NextJS. I'm also hoping to containerise and host it to learn about docker/containerisation along with hosting web applications.
+This is a little project I started to learn how to do front-end along with trying to learn React and NextJS. I'm also hoping to containerise and host it to learn about docker/containerisation along with hosting and running web applications.
 
 ## Getting Started
 
